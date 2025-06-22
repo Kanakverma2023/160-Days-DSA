@@ -41,6 +41,8 @@ public class Solution {
         if (count1 > n / 3) result.add(candidate1);
         if (count2 > n / 3) result.add(candidate2);
 
+        Collections.sort(result);
+        
         return result;
     }
 
